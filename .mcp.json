@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "docstore": {
+      "command": "${HOME}/.projects/python/fs-mcp/.venv/bin/python",
+      "args": [
+        "${HOME}/.projects/python/fs-mcp/run_server.py"
+      ],
+      "env": {
+        "FS_MCP_STORAGE_PATH": "${HOME}/.projects/python/fs-mcp/storage",
+        "FS_MCP_SERVER_NAME": "filesystem-mcp-server"
+      }
+    }
+  }
+}

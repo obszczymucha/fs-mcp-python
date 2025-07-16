@@ -1,0 +1,11 @@
+{
+  "name": "Sample Configuration",
+  "description": "This is a sample JSON file stored in the MCP filesystem",
+  "version": "1.0.0",
+  "features": [
+    "filesystem resources",
+    "configurable storage path",
+    "MIME type detection",
+    "file size limits"
+  ]
+}

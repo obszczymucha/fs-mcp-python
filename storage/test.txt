@@ -1,0 +1,4 @@
+This is a test file for the MCP filesystem server.
+It contains some sample text content.
+
+You can access this file using the URI: docstore://test.txt

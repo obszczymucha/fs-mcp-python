@@ -1,0 +1,5 @@
+{
+  "storage_path": "./storage",
+  "server_name": "filesystem-mcp-server",
+  "version": "1.0.0"
+}
