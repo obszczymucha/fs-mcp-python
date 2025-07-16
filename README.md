@@ -14,12 +14,12 @@ A Model Context Protocol (MCP) server that exposes filesystem resources through 
 
 1. Install dependencies:
 ```bash
-pip install mcp pydantic
+uv sync
 ```
 
 2. Run the server:
 ```bash
-python -m fs_mcp_server.main
+uv run python -m fs_mcp_server.main
 ```
 
 ## Configuration
@@ -83,10 +83,23 @@ asyncio.run(main())
 
 ## Testing
 
-Run the included test script:
+Run the included test scripts:
 
 ```bash
-python test_server.py
+uv run python test_server.py
+uv run python test_refresh.py
+```
+
+Run linting:
+
+```bash
+uv run ruff check
+```
+
+Format code:
+
+```bash
+uv run black .
 ```
 
 ## Security
